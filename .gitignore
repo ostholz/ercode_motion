@@ -15,7 +15,7 @@
 build/
 
 vendor/Pods/.build/*
-vendar/Pods/build-iPhoneOS/*
+vendor/Pods/*
 
 
 ## Documentation cache and generated files:
