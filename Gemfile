@@ -9,4 +9,5 @@ gem 'motion-layout'
 
 gem 'bubble-wrap', '~> 1.7.1'
 
+gem 'ib'
 # gem 'motion-kit'
