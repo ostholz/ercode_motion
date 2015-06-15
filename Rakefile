@@ -13,7 +13,7 @@ Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
   app.name = 'ercode'
   app.seed_id = '3V9K57L9SW'
- app.deployment_target = '7.0'
+  app.deployment_target = '7.0'
   app.device_family = [:iphone, :ipad]
   # app.interface_orientations = [:portrait, :portrait_upside_down]
   app.identifier = 'de.i2dm.ercode'
@@ -22,6 +22,7 @@ Motion::Project::App.setup do |app|
   # app.icons = Dir.glob("resources/Icon*.png").map{|icon| icon.split("/").last}
   app.prerendered_icon = true
   app.info_plist['UIRequiredDeviceCapabilities'] = {'location-services' => true }
+  app.info_plist['UILaunchStoryboardName'] = "launch_screen"
   app.entitlements['application-identifier'] = app.seed_id + '.' + app.identifier
 
   # app.vendor_project('vendor/PDColoredProgress', :static)

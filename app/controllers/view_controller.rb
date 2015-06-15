@@ -1,4 +1,0 @@
-class ViewController < UIViewController
-
-
-end
